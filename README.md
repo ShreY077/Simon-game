@@ -10,7 +10,7 @@
 • Scoring System: A scoring mechanism tracks players' performance, rewarding them for successfully completing levels and achieving high 
 scores.
 
-• Configurable Difficulty Levels: Players can adjust the difficulty level to match their skill level, with options to increase the speed and complexity of the game.
+• Difficulty Levels: The difficulty level increases as the user proceeds the number of rounds in the game.
 
 • Sound Effects: Immersive sound effects enhance the gameplay experience, providing auditory feedback for correct and incorrect moves.
 
