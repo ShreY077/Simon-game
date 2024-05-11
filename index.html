@@ -9,38 +9,34 @@
 </head>
 
 <body>
-  <h1 id="level-title">Press A Key to Start</h1>
-  <div class="container">
-    <div lass="row">
-
-      <div type="button" id="green" class="btn green">
-
-      </div>
-
-      <div type="button" id="red" class="btn red">
-
-      </div>
-    </div>
-
-    <div class="row">
-
-      <div type="button" id="yellow" class="btn yellow">
-
-      </div>
-      <div type="button" id="blue" class="btn blue">
-
-      </div>
-
-    </div>
-
+  <div id="start-screen">
+    <h1 id="rules-title">How to Play</h1>
+    <ul id="rules">
+      <li>Simon is a memory game.</li>
+      <li>The game will show a sequence of colors, starting with one.</li>
+      <li>You need to repeat the sequence by clicking on the color blocks.</li>
+      <li>Each time you repeat the sequence correctly, the game will add one more color to the sequence.</li>
+      <li>If you make a mistake, the game will end.</li>
+      <li>Press any key to start.</li>
+    </ul>
   </div>
 
+  <div id="game-screen" style="display: none;">
+    <h1 id="level-title">Press A Key to Start</h1>
+    <div class="container">
+      <div class="row">
+        <div type="button" id="green" class="btn green"></div>
+        <div type="button" id="red" class="btn red"></div>
+      </div>
+      <div class="row">
+        <div type="button" id="yellow" class="btn yellow"></div>
+        <div type="button" id="blue" class="btn blue"></div>
+      </div>
+    </div>
+  </div>
 
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<script src="index.js"></script>
-
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="index.js"></script>
 </body>
 
 </html>

@@ -3,18 +3,41 @@ body {
   background-color: #011F3F;
 }
 
-#level-title {
-  font-family: 'Press Start 2P', cursive;
-  font-size: 3rem;
-  margin:  5%;
+#start-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
   color: #FEF2BF;
+}
+
+#rules-title {
+  font-family: 'Press Start 2P', cursive; /* Specify font-family */
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+#rules {
+  font-size: 1.5rem;
+  max-width: 80%;
+  line-height: 1.5;
+  text-align: left; /* Align list items to the left */
+}
+
+#rules li {
+  list-style-type: disc; /* Use disc bullet points */
+  margin-bottom: 10px; /* Add some space between list items */
+}
+
+#game-screen {
+  display: none;
 }
 
 .container {
   display: block;
   width: 50%;
   margin: auto;
-
 }
 
 .btn {
@@ -50,4 +73,10 @@ body {
 .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
+}
+
+/* Added to reset the level title color and font */
+#level-title {
+  color: #FEF2BF;
+  font-family: 'Press Start 2P', cursive; /* Specify font-family */
 }
