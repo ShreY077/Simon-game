@@ -19,7 +19,9 @@ scores.
 **Technologies Used:**
 
 • HTML/CSS/JavaScript: The game is built using standard web technologies, making it accessible to a wide range of users without requiring additional plugins or software.
+
 • jQuery: The jQuery library is utilized for DOM manipulation and event handling, streamlining the development process and enhancing interactivity.
+
 • Responsive Design Principles: CSS media queries and flexible layout techniques ensure that the game adapts seamlessly to different devices and screen orientations.
 
 **How to Play:**
