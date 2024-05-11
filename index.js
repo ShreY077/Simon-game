@@ -65,7 +65,7 @@ function checkAnswer(currentLevel) {
       }, 1000);
     }
   } else {
-    var audio = new Audio("sounds/Wrong.mp3");
+    var audio = new Audio("sounds/wrong.mp3");
     audio.play();
 
     $("body").addClass("game-over");
